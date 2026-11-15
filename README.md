@@ -43,9 +43,6 @@
   <img src="https://www.gitskins.com/api/section/stack?username=xotahsin&theme=github-dark&mode=dark" alt="Language stack" />
 </p>
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/highlights?username=xotahsin&theme=github-dark&mode=dark" alt="Highlights" />
-</p>
-<p align="center">
   <img height="280em" src="https://www.gitskins.com/api/section/heatmap?username=xotahsin&theme=github-dark&mode=dark" alt="Contribution activity" />
 </p>
 
@@ -69,14 +66,6 @@
   <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   -->
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/heatmap?username=xotahsin&theme=github-dark&mode=dark&style=snake" />
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=xotahsin&theme=github-dark&mode=dark&style=snake" />
-    <img alt="Contribution snake" src="https://www.gitskins.com/api/section/heatmap?username=xotahsin&theme=github-dark&mode=dark&style=snake" />
-  </picture>
 </p>
 
 <p align="center"><sub>© Md Tahsin Islam</sub></p>
