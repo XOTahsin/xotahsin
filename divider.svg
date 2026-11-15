@@ -1,15 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 8" role="presentation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="800" height="40" role="img" aria-label="">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6ee7ff" stop-opacity="0"/>
-      <stop offset=".3" stop-color="#6ee7ff"/>
-      <stop offset=".7" stop-color="#c9a7ff"/>
-      <stop offset="1" stop-color="#c9a7ff" stop-opacity="0"/>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="0.7" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#db2777" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f0abfc" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#db2777" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="800" height="40"/></clipPath>
+    <!-- fade the ends -->
+    <mask id="fade">
+      <rect width="800" height="40" fill="url(#g1)"/>
+    </mask>
   </defs>
-  <rect y="3" width="800" height="2" fill="url(#g)" opacity=".6"/>
-  <circle cy="4" r="3" fill="#ffffff">
-    <animate attributeName="cx" values="0;800" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="6s" repeatCount="indefinite"/>
-  </circle>
+  <g clip-path="url(#clip)" fill="none" stroke-linecap="round">
+    <path d="M-200,20 q25,-12 50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0" stroke="url(#g1)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="100 0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-200,20 q50,10 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0" stroke="url(#g2)" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="400" cy="20" r="3" fill="#e0f2fe" stroke="none">
+      <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>

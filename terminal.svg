@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" width="800" height="410" role="img" aria-label="Terminal: whoami — Md Tahsin Islam, Flutter developer from Bangladesh. Focus: productivity and tracking apps, study systems, mobile UI/UX. Learning: full-stack app architecture.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#070a1a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#141a3a"/>
+      <stop offset="1" stop-color="#1b1440"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <!-- typed lines: width reveals text like typing -->
+    <clipPath id="c1"><rect x="28" y="74" height="26" width="0">
+      <animate attributeName="width" values="0;0;86;86;0" keyTimes="0;0.03125;0.08125;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="28" y="144" height="26" width="0">
+      <animate attributeName="width" values="0;0;156;156;0" keyTimes="0;0.1625;0.2375;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="28" y="214" height="26" width="0">
+      <animate attributeName="width" values="0;0;166;166;0" keyTimes="0;0.325;0.4;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c7"><rect x="28" y="284" height="26" width="0">
+      <animate attributeName="width" values="0;0;318;318;0" keyTimes="0;0.4875;0.6125;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="798" height="408" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-opacity="0.6"/>
+  <path d="M1,17 a16,16 0 0 1 16,-16 h766 a16,16 0 0 1 16,16 v27 h-798 z" fill="url(#bar)"/>
+  <circle cx="26" cy="23" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="23" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="23" r="6.5" fill="#28c840"/>
+  <text x="400" y="28" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">tahsin@dev: ~</text>
+
+  <g font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="16" xml:space="preserve">
+    <!-- 1 -->
+    <text x="32" y="92" clip-path="url(#c1)"><tspan fill="#4ade80">$</tspan><tspan fill="#e2e8f0"> whoami</tspan></text>
+    <!-- 2 -->
+    <text x="32" y="122" fill="#c4b5fd" opacity="0">Md Tahsin Islam · Flutter developer from Bangladesh
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10625;0.1125;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+    <!-- 3 -->
+    <text x="32" y="162" clip-path="url(#c3)"><tspan fill="#4ade80">$</tspan><tspan fill="#e2e8f0"> cat focus.txt</tspan></text>
+    <!-- 4 -->
+    <text x="32" y="192" fill="#67e8f9" opacity="0">→ productivity &amp; tracking apps · study systems · mobile UI/UX
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2625;0.26875;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+    <!-- 5 -->
+    <text x="32" y="232" clip-path="url(#c5)"><tspan fill="#4ade80">$</tspan><tspan fill="#e2e8f0"> echo $LEARNING</tspan></text>
+    <!-- 6 -->
+    <text x="32" y="262" fill="#f9a8d4" opacity="0">full-stack app architecture
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.425;0.43125;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+    <!-- 7 -->
+    <text x="32" y="302" clip-path="url(#c7)"><tspan fill="#4ade80">$</tspan><tspan fill="#e2e8f0"> git commit -m </tspan><tspan fill="#fde68a">"keep building"</tspan></text>
+    <!-- 8 -->
+    <text x="32" y="332" fill="#4ade80" opacity="0">✔ shipped. see you in the next commit.
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.64375;0.65;0.96;1" dur="16s" repeatCount="indefinite"/></text>
+    <!-- 9: prompt + blinking cursor -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6875;0.69;0.96;1" dur="16s" repeatCount="indefinite"/>
+      <text x="32" y="372" fill="#4ade80">$</text>
+      <rect x="50" y="358" width="9" height="18" fill="#e2e8f0">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

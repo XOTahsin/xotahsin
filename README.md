@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="./header.svg" alt="Md Tahsin Islam" width="100%" />
+<img src="./header.svg" alt="Md Tahsin Islam — Flutter Developer" width="100%" />
 
-<img src="./pixel-scene.svg" alt="Animated pixel art: a developer coding on a rooftop at night" width="100%" />
+<a href="https://github.com/xotahsin">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+apps+that+help+you+grow+%E2%9C%A6;Flutter+%C2%B7+Dart+%C2%B7+Mobile+UI%2FUX;Study+systems+%26+productivity+tools;Learning+full-stack+app+architecture" alt="Typing intro" />
+</a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=xotahsin&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/xotahsin?label=Followers&style=for-the-badge&logo=github&color=0e75b6" alt="Followers" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fxotahsin&query=%24.public_repos&label=Repositories&style=for-the-badge&logo=github&color=0e75b6" alt="Repositories" />
+<img src="https://komarev.com/ghpvc/?username=xotahsin&label=Profile%20Views&color=7c3aed&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/xotahsin?label=Followers&style=for-the-badge&logo=github&color=7c3aed" alt="Followers" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fxotahsin&query=%24.public_repos&label=Repositories&style=for-the-badge&logo=github&color=7c3aed" alt="Repositories" />
 
 <img src="./divider.svg" width="80%" alt="" />
 
@@ -17,22 +19,37 @@
 <h2 align="center">✦ About Me ✦</h2>
 
 <p align="center">
-  I'm <b>Md Tahsin Islam</b>, a web developer from <b>Bangladesh</b> 🇧🇩<br/>
-  I enjoy turning ideas into clean, fast and thoughtfully designed interfaces.<br/>
-  I work mainly with <b>HTML, CSS, JavaScript and TypeScript</b>,<br/>
-  and I'm always learning, building and shipping new things.
+  <img src="./terminal.svg" alt="whoami: Md Tahsin Islam, Flutter developer from Bangladesh. Focus: productivity and tracking apps, study systems, mobile UI/UX. Currently learning full-stack app architecture." width="85%" />
 </p>
+
+<p align="center">
+  I'm <b>Md Tahsin Islam</b>, a Flutter developer from <b>Bangladesh</b> 🇧🇩<br/>
+  I build <b>productivity & tracking apps</b> that help people study better and grow a little every day.<br/>
+  I care about calm, thoughtful <b>mobile UI/UX</b>, and I'm currently learning <b>full-stack app architecture</b>.
+</p>
+
+<div align="center"><img src="./divider.svg" width="80%" alt="" /></div>
+
+<h2 align="center">✦ Tech Orbit ✦</h2>
+
+<p align="center">
+  <img src="./orbit.svg" alt="Tech stack: Flutter, Dart, JavaScript, TypeScript, HTML, CSS, PostgreSQL, Git, GitHub, VS Code" width="90%" />
+</p>
+
+<!-- Add more icons any time, e.g. firebase,figma,android,kotlin.
+     Icon names: https://github.com/tandpfun/skill-icons#icons-list -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,html,css,js,ts,postgres,git,github,vscode&theme=dark&perline=10" alt="Tech stack icons" />
+</p>
+
+<div align="center"><img src="./divider.svg" width="80%" alt="" /></div>
+
+<h2 align="center">✦ Stats & Activity ✦</h2>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xotahsin&theme=github_dark" alt="Profile details" width="49%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=xotahsin&theme=github_dark" alt="Most used languages" width="49%" />
 </p>
-
-<p align="center"><sub>Everything above updates automatically from my GitHub activity.</sub></p>
-
-<div align="center"><img src="./divider.svg" width="80%" alt="" /></div>
-
-<h2 align="center">✦ Stats & Activity ✦</h2>
 
 <p align="center">
   <img src="https://www.gitskins.com/api/section/stats?username=xotahsin&theme=github-dark&mode=dark" alt="GitHub stats" width="49%" />
@@ -46,15 +63,7 @@
   <img height="280em" src="https://www.gitskins.com/api/section/heatmap?username=xotahsin&theme=github-dark&mode=dark" alt="Contribution activity" />
 </p>
 
-<div align="center"><img src="./divider.svg" width="80%" alt="" /></div>
-
-<h2 align="center">✦ Tech Stack ✦</h2>
-
-<!-- Add more icons any time by adding names to the list, e.g. react,nodejs,tailwind,python,figma.
-     Icon names: https://github.com/tandpfun/skill-icons#icons-list -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,postgres,git,github,vscode&theme=dark&perline=8" alt="Tech stack" />
-</p>
+<p align="center"><sub>Everything above updates automatically from my GitHub activity.</sub></p>
 
 <div align="center"><img src="./divider.svg" width="80%" alt="" /></div>
 
@@ -68,4 +77,14 @@
   -->
 </p>
 
-<p align="center"><sub>© Md Tahsin Islam</sub></p>
+<!-- The snake is generated by .github/workflows/snake.yml (free, no watermark).
+     It appears after the workflow runs once — see setup steps. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xotahsin/xotahsin/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xotahsin/xotahsin/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/xotahsin/xotahsin/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+<p align="center"><sub>✦ thanks for stopping by ✦ © Md Tahsin Islam</sub></p>

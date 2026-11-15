@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="My tech stack orbiting: Flutter, Dart, JavaScript, TypeScript, HTML, CSS, PostgreSQL, Git, GitHub, VS Code">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#11173a"/>
+      <stop offset="1" stop-color="#05061a"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="0.35" stop-color="#67e8f9"/>
+      <stop offset="0.75" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="800" height="440" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <rect width="800" height="440" fill="url(#bg)"/>
+
+    <!-- stars -->
+    <g fill="#fff">
+      <circle cx="60" cy="50" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="740" cy="70" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="400" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="90" cy="390" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="4.4s" repeatCount="indefinite"/></circle>
+      <circle cx="400" cy="30" r="1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="400" y="38" text-anchor="middle" font-size="13" letter-spacing="6" fill="#a5b4fc" opacity="0.8">MY TECH ORBIT</text>
+
+    <!-- orbit rings -->
+    <g fill="none" stroke-width="1.2" stroke-dasharray="4 8">
+      <ellipse cx="400" cy="230" rx="130" ry="50" stroke="#67e8f9" stroke-opacity="0.35">
+        <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="6s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="400" cy="230" rx="230" ry="88" stroke="#a78bfa" stroke-opacity="0.3">
+        <animate attributeName="stroke-dashoffset" from="0" to="120" dur="8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="400" cy="230" rx="340" ry="130" stroke="#f0abfc" stroke-opacity="0.22">
+        <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="10s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- core -->
+    <circle cx="400" cy="230" r="70" fill="url(#core)" opacity="0.55">
+      <animate attributeName="r" values="62;76;62" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="230" r="30" fill="#0b1026" stroke="#67e8f9" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="400" y="237" text-anchor="middle" font-size="20" font-weight="800" fill="#e0f2fe">MT</text>
+
+    <!-- inner orbit: 14s -->
+    <g>
+      <animateMotion dur="14s" begin="0s" repeatCount="indefinite" path="M270,230 a130,50 0 1,1 260,0 a130,50 0 1,1 -260,0"/>
+      <rect x="-38" y="-15" width="76" height="30" rx="15" fill="#42a5f5" fill-opacity="0.18" stroke="#42a5f5"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#bfdbfe">Flutter</text>
+    </g>
+    <g>
+      <animateMotion dur="14s" begin="-7s" repeatCount="indefinite" path="M270,230 a130,50 0 1,1 260,0 a130,50 0 1,1 -260,0"/>
+      <rect x="-30" y="-15" width="60" height="30" rx="15" fill="#00b4ab" fill-opacity="0.18" stroke="#00b4ab"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#99f6e4">Dart</text>
+    </g>
+
+    <!-- middle orbit: 22s -->
+    <g>
+      <animateMotion dur="22s" begin="0s" repeatCount="indefinite" path="M170,230 a230,88 0 1,1 460,0 a230,88 0 1,1 -460,0"/>
+      <rect x="-48" y="-15" width="96" height="30" rx="15" fill="#f7df1e" fill-opacity="0.14" stroke="#f7df1e"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#fef9c3">JavaScript</text>
+    </g>
+    <g>
+      <animateMotion dur="22s" begin="-5.5s" repeatCount="indefinite" path="M170,230 a230,88 0 1,1 460,0 a230,88 0 1,1 -460,0"/>
+      <rect x="-48" y="-15" width="96" height="30" rx="15" fill="#3178c6" fill-opacity="0.2" stroke="#3178c6"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#bfdbfe">TypeScript</text>
+    </g>
+    <g>
+      <animateMotion dur="22s" begin="-11s" repeatCount="indefinite" path="M170,230 a230,88 0 1,1 460,0 a230,88 0 1,1 -460,0"/>
+      <rect x="-32" y="-15" width="64" height="30" rx="15" fill="#e34f26" fill-opacity="0.18" stroke="#e34f26"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#fed7aa">HTML</text>
+    </g>
+    <g>
+      <animateMotion dur="22s" begin="-16.5s" repeatCount="indefinite" path="M170,230 a230,88 0 1,1 460,0 a230,88 0 1,1 -460,0"/>
+      <rect x="-28" y="-15" width="56" height="30" rx="15" fill="#a855f7" fill-opacity="0.18" stroke="#a855f7"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#e9d5ff">CSS</text>
+    </g>
+
+    <!-- outer orbit: 30s -->
+    <g>
+      <animateMotion dur="30s" begin="0s" repeatCount="indefinite" path="M60,230 a340,130 0 1,1 680,0 a340,130 0 1,1 -680,0"/>
+      <rect x="-50" y="-15" width="100" height="30" rx="15" fill="#336791" fill-opacity="0.25" stroke="#5b9bd5"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#dbeafe">PostgreSQL</text>
+    </g>
+    <g>
+      <animateMotion dur="30s" begin="-7.5s" repeatCount="indefinite" path="M60,230 a340,130 0 1,1 680,0 a340,130 0 1,1 -680,0"/>
+      <rect x="-24" y="-15" width="48" height="30" rx="15" fill="#f05032" fill-opacity="0.18" stroke="#f05032"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#fecaca">Git</text>
+    </g>
+    <g>
+      <animateMotion dur="30s" begin="-15s" repeatCount="indefinite" path="M60,230 a340,130 0 1,1 680,0 a340,130 0 1,1 -680,0"/>
+      <rect x="-36" y="-15" width="72" height="30" rx="15" fill="#e6edf3" fill-opacity="0.1" stroke="#e6edf3" stroke-opacity="0.8"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#f8fafc">GitHub</text>
+    </g>
+    <g>
+      <animateMotion dur="30s" begin="-22.5s" repeatCount="indefinite" path="M60,230 a340,130 0 1,1 680,0 a340,130 0 1,1 -680,0"/>
+      <rect x="-38" y="-15" width="76" height="30" rx="15" fill="#22a6f2" fill-opacity="0.18" stroke="#22a6f2"/>
+      <text y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#bae6fd">VS Code</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="799" height="439" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  </g>
+</svg>
